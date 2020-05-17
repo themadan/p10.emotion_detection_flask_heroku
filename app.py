@@ -39,5 +39,5 @@ def predict():
     return render_template('index.html', prediction_text=input_features)
 
 if __name__ == "__main__":
-    app.run(debug=True)
-    # app.run()    # for production level
+    #app.run(debug=True)
+    app.run()    # for production level
